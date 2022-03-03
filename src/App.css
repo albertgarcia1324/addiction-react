@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-nav {
+  height: 100%;
+  background-color: #B667F1;
+}
+
+.jumbotron {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
