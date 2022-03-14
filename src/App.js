@@ -1,15 +1,20 @@
-import './App.css';
-import React, { Component } from 'react'
-import Navbar from './navbar'
+import React, { Component } from "react";
+import "./App.css";
+import Header from "./components/header";
+import Contact from "./components/modal";
+import Info from "./components/Info";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-
-      </div>  
-    )
+        <Header />
+        <Contact />
+        <Info />
+        <Footer />
+      </div>
+    );
   }
 }
 
