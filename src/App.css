@@ -59,6 +59,19 @@
   margin-bottom: 20px;
 }
 
+/* .carousel-img {
+  padding: 0;
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* @media (max-width: 900px) {
+  .carousel-img {
+    width: auto;
+    height: auto;
+  }
+} */
+
 .site-footer {
   height: auto;
   background-image: linear-gradient(#f2e2ff, white);
