@@ -31,7 +31,7 @@ class Header extends Component {
         <Container className="jumbotron" fluid>
           <Row className="justify-content-center">
             <Col md="auto">
-              <h1 class="display-1">Defeat Addiction</h1>
+              <h1 className="display-1">Defeat Addiction</h1>
               {/* <h3>Get the help you need today.</h3> */}
             </Col>
             <Row className="justify-content-md-center">
