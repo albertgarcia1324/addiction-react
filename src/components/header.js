@@ -39,6 +39,9 @@ class Header extends Component {
                 <h2>
                   “If you can quit for a day, you can quit for a lifetime.”
                 </h2>
+                <h5>
+                  <em>- Benjamin Alire Sáenz</em>
+                </h5>
               </Col>
             </Row>
           </Row>

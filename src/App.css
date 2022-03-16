@@ -1,5 +1,11 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
+  width: auto;
 }
 
 .App-logo {
@@ -44,7 +50,7 @@
 }
 
 .jumbotron {
-  height: 350px;
+  height: 550px;
   display: flex;
   text-align: center;
 }
@@ -59,18 +65,34 @@
   margin-bottom: 20px;
 }
 
-/* .carousel-img {
-  padding: 0;
-  width: 100%;
-  object-fit: cover;
-} */
+.jumbotron h5 {
+  color: #f2e2ff;
+  margin-bottom: 180px;
+}
 
-/* @media (max-width: 900px) {
-  .carousel-img {
-    width: auto;
-    height: auto;
-  }
-} */
+.card {
+  background-color: #f3e7fa;
+}
+
+.carousel-div {
+  background-image: linear-gradient(#b483da, #f2e2ff);
+}
+
+.carousel-col {
+  width: auto;
+  margin: auto;
+  object-fit: cover;
+}
+
+.carousel {
+  width: 68%;
+  border: 3px solid #e5d0f7;
+}
+
+.carousel,
+img {
+  border-radius: 3px;
+}
 
 .site-footer {
   height: auto;
