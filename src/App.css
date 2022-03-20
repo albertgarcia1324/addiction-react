@@ -3,6 +3,20 @@ body {
   overflow-x: hidden;
 }
 
+.accordion {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-1 {
+  background-color: #d6e5fc;
+}
+
+.accordion-2 {
+  background-color: #c8d8f0;
+}
+
 .App {
   text-align: center;
   width: auto;
