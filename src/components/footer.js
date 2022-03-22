@@ -12,13 +12,13 @@ function Footer(props) {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#">Home</a>
+                <a href="#header">Home</a>
               </li>
               <li>
-                <a href="resources.html">Resources</a>
+                <a href="#contacts">Contacts</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="#form">Form</a>
               </li>
             </ul>
           </div>
@@ -52,7 +52,11 @@ function Footer(props) {
             </a>
           </div>
           <div className="col-4 col-sm-4 text-center">
-            <a role="button" className="btn btn-link" href="tel:+4108239355">
+            <a
+              role="button"
+              className="btn btn-link"
+              href="tel:+1-410-823-9355"
+            >
               <i className="fa fa-phone"></i> (410) 823-9355
             </a>
           </div>

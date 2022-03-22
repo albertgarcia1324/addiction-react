@@ -99,6 +99,8 @@ body {
 }
 
 .carousel {
+  /* margin-top: 80px;
+  margin-bottom: 50px; */
   width: 68%;
   border: 3px solid #e5d0f7;
 }

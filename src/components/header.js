@@ -13,18 +13,15 @@ import {
 class Header extends Component {
   render() {
     return (
-      <div className="bg-nav">
+      <div id="header" className="bg-nav">
         <Navbar className="bg-nav" expand="xs" light full>
           <NavbarBrand href="/"></NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="#">Home</NavLink>
+              <NavLink href="#contacts">Contacts</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Resources</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">Contact</NavLink>
+              <NavLink href="#form">Form</NavLink>
             </NavItem>
           </Nav>
         </Navbar>

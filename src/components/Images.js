@@ -26,7 +26,7 @@ const items = [
 
 const Images = () => (
   <div className="carousel-div">
-    <Row className="carousel-row">
+    <Row id="resources" className="carousel-row">
       <Col md="12" className="mx-auto d-block w-100 carousel-col mt-1 mb-1">
         <UncontrolledCarousel
           className="carousel mx-auto d-block"

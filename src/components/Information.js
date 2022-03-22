@@ -38,7 +38,9 @@ class Information extends Component {
         <CardGroup className="card text-center">
           <Card>
             <CardBody>
-              <CardTitle tag="h5">Information Request</CardTitle>
+              <CardTitle id="form" tag="h5">
+                Information Request
+              </CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Form
               </CardSubtitle> */}
@@ -52,33 +54,86 @@ class Information extends Component {
                 onClick={this.toggleModal}
                 color="primary"
               >
-                Submit Form
+                Complete Form
               </Button>
               <Modal
                 id="formModal"
                 isOpen={this.state.isModalOpen}
                 toggle={this.toggleModal}
               >
-                <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
-                <ModalBody>
+                <ModalHeader
+                  toggle={this.toggleModal}
+                  className="text-light bg-primary"
+                >
+                  Information Request
+                </ModalHeader>
+                <ModalBody className="text-dark bg-light">
                   <Form onSubmit={this.handleLogin}>
                     <Form onSubmit={this.handleLogin}>
                       <FormGroup>
-                        <Label htmlFor="username">Username</Label>
+                        <Label htmlFor="name">Name</Label>
                         <Input
                           type="text"
-                          id="username"
-                          name="username"
-                          innerRef={(input) => (this.username = input)}
+                          id="name"
+                          name="name"
+                          placeholder="Your name"
+                          innerRef={(input) => (this.name = input)}
                         />
                       </FormGroup>
                       <FormGroup>
-                        <Label htmlFor="password">Password</Label>
+                        <Label htmlFor="email">Email</Label>
                         <Input
-                          type="password"
-                          id="password"
-                          name="password"
-                          innerRef={(input) => (this.password = input)}
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="1234@example.com"
+                          innerRef={(input) => (this.email = input)}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <Label htmlFor="password">Email</Label>
+                        <Input
+                          type="email"
+                          id="email"
+                          name="email"
+                          innerRef={(input) => (this.email = input)}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <Label htmlFor="address">Address</Label>
+                        <Input
+                          type="text"
+                          id="address"
+                          name="address"
+                          placeholder="1234 Main St."
+                          innerRef={(input) => (this.address = input)}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <Label htmlFor="">City</Label>
+                        <Input
+                          type="city"
+                          id="city"
+                          name="city"
+                          innerRef={(input) => (this.city = input)}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <Label htmlFor="state">State</Label>
+                        <Input
+                          type="state"
+                          id="state"
+                          name="state"
+                          innerRef={(input) => (this.state = input)}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <Label htmlFor="areacode">Area Code</Label>
+                        <Input
+                          type="areacode"
+                          id="areacode"
+                          name="areacode"
+                          innerRef={(input) => (this.areacode = input)}
                         />
                       </FormGroup>
                       <FormGroup check>
@@ -88,44 +143,21 @@ class Information extends Component {
                             name="remember"
                             innerRef={(input) => (this.remember = input)}
                           />
-                          Remember me
+                          Subscribe To Newsletter
                         </Label>
                       </FormGroup>
-                      <Button type="submit" value="submit" color="primary">
+                      <Button
+                        onClick={this.toggleModal}
+                        type="submit"
+                        value="submit"
+                        color="primary"
+                      >
                         Submit
                       </Button>
                     </Form>
                   </Form>
                 </ModalBody>
               </Modal>
-            </CardBody>
-          </Card>
-        </CardGroup>
-        <CardGroup className="card text-center">
-          <Card>
-            <CardBody>
-              <CardTitle tag="h5">Emergency Contact</CardTitle>
-              <CardText>
-                Find below a list of emergency contact numbers for providers to
-                get immediate assistance through available government programs.
-                These resources are available 24/7.
-              </CardText>
-              {/* <Button outline onClick={this.toggleModal} color="danger">
-                Emergency Contact
-              </Button> */}
-            </CardBody>
-          </Card>
-          <Card>
-            <CardBody>
-              <CardTitle tag="h5">Contact List</CardTitle>
-              <CardText>
-                Find below a full list of contact numbers for providers
-                throughout Anne Arundel County. This list includes both public
-                and private healthcare contacts to get you the help you need.
-              </CardText>
-              {/* <Button outline color="info">
-                Contact List
-              </Button> */}
             </CardBody>
           </Card>
         </CardGroup>
