@@ -35,8 +35,8 @@ class Information extends Component {
   render() {
     return (
       <div>
-        <CardGroup className="card text-center">
-          <Card>
+        <CardGroup className="card text-center info-card">
+          <Card className="border-0">
             <CardBody>
               <CardTitle id="form" tag="h5">
                 Information Request

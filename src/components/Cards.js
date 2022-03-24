@@ -5,8 +5,8 @@ export default class Cards extends Component {
   render() {
     return (
       <div>
-        <CardGroup id="contacts" className="card text-center">
-          <Card>
+        <CardGroup id="contacts" className="card text-center contact-card">
+          <Card className="border-0">
             <CardBody>
               <CardTitle tag="h5">Emergency Contact</CardTitle>
               <CardText>
@@ -19,7 +19,7 @@ export default class Cards extends Component {
               </Button> */}
             </CardBody>
           </Card>
-          <Card>
+          <Card className="border-0">
             <CardBody>
               <CardTitle tag="h5">Contact List</CardTitle>
               <CardText>

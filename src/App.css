@@ -5,7 +5,7 @@ body {
 
 .accordion {
   width: 100%;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 
@@ -63,6 +63,53 @@ body {
   background-size: cover;
 }
 
+.card {
+  background-color: #f3e7fa;
+}
+
+.carousel-div {
+  background-image: linear-gradient(#b483da, #f2e2ff);
+}
+
+.carousel-col {
+  width: auto;
+  margin: auto;
+  object-fit: cover;
+}
+
+.carousel {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 68%;
+  border: 3px solid #e5d0f7;
+}
+
+.carousel,
+img {
+  border-radius: 3px;
+}
+
+.contact-card {
+  border-style: none;
+  border-radius: 0;
+  border-color: #b076dc;
+  border-width: 0px;
+  padding: 0px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.info-card {
+  border-radius: 0;
+  border-color: #b076dc;
+  border-width: 0px;
+  padding: 35px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 00px;
+  background-color: #b483da;
+}
+
 .jumbotron {
   height: 550px;
   display: flex;
@@ -82,32 +129,6 @@ body {
 .jumbotron h5 {
   color: #f2e2ff;
   margin-bottom: 180px;
-}
-
-.card {
-  background-color: #f3e7fa;
-}
-
-.carousel-div {
-  background-image: linear-gradient(#b483da, #f2e2ff);
-}
-
-.carousel-col {
-  width: auto;
-  margin: auto;
-  object-fit: cover;
-}
-
-.carousel {
-  /* margin-top: 80px;
-  margin-bottom: 50px; */
-  width: 68%;
-  border: 3px solid #e5d0f7;
-}
-
-.carousel,
-img {
-  border-radius: 3px;
 }
 
 .site-footer {
